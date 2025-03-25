@@ -1,0 +1,114 @@
+/* listbuilds Colors */
+.bg-listbuilds-blue {
+    background-color: #004D98; /* listbuilds's primary blue */
+  }
+  
+  .bg-listbuilds-white {
+    background-color: #FFFFFF; /* White */
+  }
+  
+  .text-listbuilds-blue {
+    color: #004D98; /* listbuilds's primary blue */
+  }
+  
+  .text-listbuilds-gold {
+    color: #FFCD00; /* listbuilds's gold */
+  }
+  
+  .text-listbuilds-green {
+    color: #00FF00; /* Green for success */
+  }
+  
+  .text-listbuilds-red {
+    color: #FF0000; /* Red for errors */
+  }
+  
+  .border-listbuilds-blue {
+    border-color: #004D98 !important;
+  }
+  
+  .border-listbuilds-gold {
+    border-color: #FFCD00 !important;
+  }
+  
+  .border-listbuilds-green {
+    border-color: #00FF00 !important;
+  }
+  
+  .border-listbuilds-red {
+    border-color: #FF0000 !important;
+  }
+  
+  /* Buttons */
+  .btn-listbuilds-blue {
+    background-color: #004D98;
+    border-color: #004D98;
+    color: white;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-listbuilds-blue:hover {
+    background-color: #003366;
+    border-color: #003366;
+    transform: translateY(-2px);
+  }
+  
+  .btn-listbuilds-gold {
+    background-color: #FFCD00;
+    border-color: #FFCD00;
+    color: #004D98;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-listbuilds-gold:hover {
+    background-color: #E6B800;
+    border-color: #E6B800;
+    transform: translateY(-2px);
+  }
+  
+  .btn-listbuilds-green {
+    background-color: #00FF00;
+    border-color: #00FF00;
+    color: #004D98;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-listbuilds-green:hover {
+    background-color: #00CC00;
+    border-color: #00CC00;
+    transform: translateY(-2px);
+  }
+  
+  .btn-listbuilds-red {
+    background-color: #FF0000;
+    border-color: #FF0000;
+    color: white;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-listbuilds-red:hover {
+    background-color: #CC0000;
+    border-color: #CC0000;
+    transform: translateY(-2px);
+  }
+  
+  /* Card Hover Effect */
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Spinner */
+  .spinner-border.text-listbuilds-gold {
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  /* Flex Grow for Buttons */
+  .flex-grow-1 {
+    flex-grow: 1;
+  }
