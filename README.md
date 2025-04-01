@@ -1,8 +1,26 @@
-# Getting Started with Create React App
+# ListBuilds ReadMe - WIP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ListBuilds is an app developed by appteam to replace some of AppCenter's core features.
+App is using Bitrise API to list available builds for a specific project.
+Project is available here: https://github.com/saristotelis/ListBuilds
 
-## Available Scripts
+# Features
+1) Bitrise API Integration: 
+Fetches build details, logs, and artifacts from Bitrise using Release Management API.
+Displays build information like status, branch, commit message, and timestamps.
+Also when download page is available, users can navigate to the artifacts and download apps.
+
+
+2) Filtering and Sorting:
+Users can filter builds by app, build status & branch.
+Also can search by build number.
+Sorting by date or status is implemented.
+
+3) Dynamic URLs:
+Links to build logs, public install pages, and Bitrise download pages are dynamically generated.
+
+
+## How to deploy
 
 In the project directory, you can run:
 
@@ -39,34 +57,6 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
 ### Deployment
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# ListBuilds
-# ListBuilds
