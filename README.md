@@ -1,6 +1,6 @@
 # ListBuilds ReadMe - WIP
 
-ListBuilds is an app developed by appteam to replace some of AppCenter's core features.
+ListBuilds is an app developed to replace some of AppCenter's core features.
 App is using Bitrise API to list available builds for a specific project.
 Project is available here: https://github.com/saristotelis/ListBuilds
 
